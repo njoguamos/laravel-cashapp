@@ -18,8 +18,8 @@
     "require": {
         "php": "^8.1 | ^8.2 | ^8.3",
         "illuminate/contracts": "^10.0",
-        "saloonphp/saloon": "^3.0",
-        "spatie/laravel-package-tools": "^1.14.0"
+        "saloonphp/saloon": "^v3.6.0",
+        "spatie/laravel-package-tools": "^1.16.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
