@@ -5,12 +5,15 @@ namespace NjoguAmos\CashApp\Tests;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 use NjoguAmos\CashApp\CashAppServiceProvider;
+use Saloon\MockConfig;
 
 class TestCase extends Orchestra
 {
     protected function setUp(): void
     {
         parent::setUp();
+
+        MockConfig::setFixturePath('fixtures');
 
         Factory::guessFactoryNamesUsing(
             fn (string $modelName) => 'Njogu Amos\\CashApp\\Database\\Factories\\'.class_basename($modelName).'Factory'
