@@ -2,6 +2,10 @@
 
 - [ ] Add description
 
+## Prerequisites 
+
+- [ ] Add description
+
 ## Installation
 
 This package is not public. You can install the package by updating your project composer as follows. 
@@ -52,9 +56,10 @@ php artisan vendor:publish --tag="laravel-cashapp-views"
 
 #### 1.1 Brands
 
-##### 1.1.1 List Brands
+<details>
+<summary>List Brands </summary>
 
-Get a list of brands matching the given query parameters.
+Get a list of brands matching the given query parameters. [API Reference](https://developers.cash.app/docs/api/network-api%2Foperations%2Flist-brands)
 
 ```php
 use NjoguAmos\CashApp\CashApp;
@@ -66,8 +71,7 @@ $brands = CashApp::listBrands();
 $brands = CashApp::listBrands(limit: 20);
 ```
 
-<details>
-<summary>Success Response</summary>
+A successful response will be formatted as follows.
 
 ```json
 {
@@ -89,16 +93,13 @@ $brands = CashApp::listBrands(limit: 20);
 }
 ```
 
-</details>
+Query Parameters
 
-<details>
-<summary>Query Parameters</summary>
-
-| params       | type                                              | required | deafult | description                                                                                                                                       |
-|--------------|---------------------------------------------------|----------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| cursor       | `string` >= 1 characters                          | false    | null    | A pagination cursor returned by a previous call to this endpoint. Provide this cursor to retrieve the next set of results for the original query. |
-| limit        | `integer` >=1 and <= 100                          | false    | 50      | Maximum number of brands to return.                                                                                                               |
-| reference_id | `string`   >= 1 characters and <= 1024 characters | false    | null    | Filters results to only include brands with a `reference_id` matching the given value.                                                            |
+| params       | type      | required | default | description                                                                                                                                             |
+|--------------|-----------|----------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| cursor       | `string`  | false    | null    | A pagination cursor returned by a previous call to this endpoint. Provide this cursor to retrieve the next set of results for the original query.       |
+| limit        | `integer` | false    | 50      | Maximum number of brands to return. A number `>=1` and `<= 100`                                                                                         |
+| reference_id | `string`  | false    | null    | Filters results to only include brands with a `reference_id` matching the given value. The string should be `>= 1` characters and `<= 1024` characters. |
 
 </details>
 
