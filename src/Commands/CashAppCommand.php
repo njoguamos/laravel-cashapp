@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 
 class CashAppCommand extends Command
 {
-    public $signature = 'laravel-cash-app';
+    public $signature = 'laravel-cashapp';
 
     public $description = 'My command';
 

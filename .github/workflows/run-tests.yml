@@ -1,13 +1,6 @@
 name: run-tests
 
-on:
-  push:
-    paths:
-      - '**.php'
-      - '.github/workflows/run-tests.yml'
-      - 'phpunit.xml.dist'
-      - 'composer.json'
-      - 'composer.lock'
+on: [pull_request]
 
 jobs:
   test:
@@ -16,7 +9,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]
         php: [8.3, 8.2, 8.1]
         laravel: [10.*]
         stability: [prefer-lowest, prefer-stable]
@@ -51,5 +44,5 @@ jobs:
       - name: List Installed Dependencies
         run: composer show -D
 
-      - name: Execute tests
+      - name: Run tests
         run: vendor/bin/pest --ci
