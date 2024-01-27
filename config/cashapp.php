@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'production' => env(key: 'CASH_PRODUCTION', default: false),
+    'production' => env(key: 'CASHAPP_PRODUCTION', default: false),
 
     /*
      |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ return [
      */
 
     'urls' => [
-        'sandbox'    => env(key: 'CASH_APP_SANDBOX_URL', default: 'https://sandbox.api.cash.app'),
-        'production' => env(key: 'CASH_APP_PRODUCTION_URL', default: 'https://api.cash.app'),
+        'sandbox'    => env(key: 'CASHAPP_SANDBOX_URL', default: 'https://sandbox.api.cash.app'),
+        'production' => env(key: 'CASHAPP_PRODUCTION_URL', default: 'https://api.cash.app'),
     ]
 ];

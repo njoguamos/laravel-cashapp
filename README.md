@@ -1,18 +1,23 @@
-# A laravel package scaforlding Cash App API.
+# A laravel package scaffolding Cash App API.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/njoguamos/laravel-cashapp.svg?style=flat-square)](https://packagist.org/packages/njoguamos/laravel-cashapp)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/njoguamos/laravel-cashapp/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/njoguamos/laravel-cashapp/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/njoguamos/laravel-cashapp/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/njoguamos/laravel-cashapp/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/njoguamos/laravel-cashapp.svg?style=flat-square)](https://packagist.org/packages/njoguamos/laravel-cashapp)
-
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+- [ ] Add description
 
 ## Installation
 
-You can install the package via composer:
+This package is not public. You can install the package by updating your project composer as follows. 
 
-```bash
-composer require njoguamos/laravel-cashapp
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/njoguamos/laravel-cashapp.git"
+        }
+    ],
+    "require": {
+        "njoguamos/laravel-cashapp": "dev-master"
+    }
+}
 ```
 
 You can publish and run the migrations with:
@@ -43,10 +48,60 @@ php artisan vendor:publish --tag="laravel-cashapp-views"
 
 ## Usage
 
+### 1 Network API
+
+#### 1.1 Brands
+
+##### 1.1.1 List Brands
+
+Get a list of brands matching the given query parameters.
+
 ```php
-$cashApp = new NjoguAmos\CashApp();
-echo $cashApp->echoPhrase('Hello, Njogu Amos!');
+use NjoguAmos\CashApp\CashApp;
+
+# Defaults
+$brands = CashApp::listBrands();
+
+# With params
+$brands = CashApp::listBrands(limit: 20);
 ```
+
+<details>
+<summary>Success Response</summary>
+
+```json
+{
+  "brands": [
+    {
+      "id": "string",
+      "name": "string",
+      "created_at": "2021-01-01T00:00:00Z",
+      "updated_at": "2021-01-01T00:00:00Z",
+      "reference_id": "example-id",
+      "color": "#ffffff",
+      "profile_image_url": "https://franklin-assets.s3.amazonaws.com/merchants/assets/v3/generic/m_category_business.png",
+      "metadata": {
+        "my-meta": "meta-value"
+      }
+    }
+  ],
+  "cursor": "string"
+}
+```
+
+</details>
+
+<details>
+<summary>Query Parameters</summary>
+
+| params       | type                                              | required | deafult | description                                                                                                                                       |
+|--------------|---------------------------------------------------|----------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| cursor       | `string` >= 1 characters                          | false    | null    | A pagination cursor returned by a previous call to this endpoint. Provide this cursor to retrieve the next set of results for the original query. |
+| limit        | `integer` >=1 and <= 100                          | false    | 50      | Maximum number of brands to return.                                                                                                               |
+| reference_id | `string`   >= 1 characters and <= 1024 characters | false    | null    | Filters results to only include brands with a `reference_id` matching the given value.                                                            |
+
+</details>
+
 
 ## Testing
 
@@ -56,7 +111,7 @@ composer test
 
 ## Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+Please see [releases](https://github.com/njoguamos/laravel-cashapp/releases) for more information on what has changed recently.
 
 ## Contributing
 

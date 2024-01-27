@@ -4,7 +4,7 @@ namespace NjoguAmos\CashApp\Connectors;
 
 use Saloon\Http\Connector;
 
-class CashAppBaseConnector extends Connector
+class CashAppConnector extends Connector
 {
     public function resolveBaseUrl(): string
     {
@@ -13,5 +13,14 @@ class CashAppBaseConnector extends Connector
         }
 
         return  config(key: 'cashapp.urls.sandbox');
+    }
+
+    protected function defaultHeaders(): array
+    {
+        return [
+            'Accept'      => 'application/json',
+            'X-Region'    => '@TODO',
+            'X-Signature' => '@TODO',
+        ];
     }
 }

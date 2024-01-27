@@ -2,7 +2,7 @@
 
 namespace Njoguamos\CashApp\Tests;
 
-use NjoguAmos\CashApp\Connectors\CashAppBaseConnector;
+use NjoguAmos\CashApp\Connectors\CashAppConnector;
 
 it(description: 'resolves to the correct base url', closure: function (bool $isProduction, string $baseUrl) {
     config()->set(
@@ -10,7 +10,7 @@ it(description: 'resolves to the correct base url', closure: function (bool $isP
         value: $isProduction
     );
 
-    $connector = new CashAppBaseConnector();
+    $connector = new CashAppConnector();
 
     expect(value: $connector->resolveBaseUrl())
         ->toBe(expected: $baseUrl);
