@@ -16,5 +16,5 @@ it(description: 'resolves to the correct base url', closure: function (bool $isP
         ->toBe(expected: $baseUrl);
 })->with([
     'production' => [true, 'https://api.cash.app'],
-    'staging'=> [false, 'https://sandbox.api.cash.app']
+    'staging'    => [false, 'https://sandbox.api.cash.app']
 ]);
