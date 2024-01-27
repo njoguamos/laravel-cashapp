@@ -16,10 +16,10 @@ class CashAppServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('laravel-cash-app')
-            ->hasConfigFile()
+            ->name(name: 'laravel-cashapp')
+            ->hasConfigFile(configFileName: 'cashapp')
             ->hasViews()
-            ->hasMigration('create_laravel-cash-app_table')
-            ->hasCommand(CashAppCommand::class);
+            ->hasMigration(migrationFileName: 'create_laravel-cash-app_table')
+            ->hasCommand(commandClassName: CashAppCommand::class);
     }
 }
