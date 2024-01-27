@@ -1,12 +1,12 @@
 {
-    "name": "njoguamos/laravel-cash-app",
+    "name": "njoguamos/laravel-cashapp",
     "description": "A laravel package scaffolding Cash App API.",
     "keywords": [
         "NjoguAmos",
         "Laravel",
         "Cash App"
     ],
-    "homepage": "https://github.com/njoguamos/laravel-cash-app",
+    "homepage": "https://github.com/njoguamos/laravel-cashapp",
     "license": "MIT",
     "authors": [
         {
@@ -47,7 +47,7 @@
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-laravel-cash-app --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-laravel-cashapp --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
