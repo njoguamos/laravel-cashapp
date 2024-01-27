@@ -14,7 +14,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     timeout-minutes: 5
     strategy:
-      fail-fast: true
+#      fail-fast: true
       matrix:
         os: [ubuntu-latest, windows-latest]
         php: [8.3, 8.2, 8.1]
@@ -51,5 +51,5 @@ jobs:
       - name: List Installed Dependencies
         run: composer show -D
 
-      - name: Execute tests
+      - name: Run tests
         run: vendor/bin/pest --ci
