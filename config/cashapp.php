@@ -25,6 +25,8 @@ return [
     | The <client id> is use to construct the authorisation header. The
     | client ID can be shared with the customers' browsers or POS.
     |
+    | Starts with `CAS-CI_` for sandbox and `CA-CI_` for production.
+    |
     | @see https://developers.cash.app/docs/api/technical-documentation%2Fapi-fundamentals%2Frequests%2Fmaking-requests#authorization
     |
    */

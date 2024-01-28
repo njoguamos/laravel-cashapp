@@ -1,7 +1,8 @@
 # A laravel package scaffolding Cash App API.
 
 ## Why Use this Package?
-1. The requests are automatically signed
+
+1. All requests to the Network and Management APIs are automatically [signed](https://developers.cash.app/docs/api/technical-documentation/api-fundamentals/requests/signing-requests).
 
 
 ## Installation
@@ -40,12 +41,22 @@ You can publish the config file with:
 php artisan vendor:publish --tag="laravel-cashapp-config"
 ```
 
-You need to understand the following keys in the config
+You need to understand ande the following keys in the environment variables in your application.
 
 | Key                  | type     | required | default | description                                                                                                                                                                                                                                                                                                                                                |
 |----------------------|----------|----------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `CASHAPP_PRODUCTION` | `boolen` | `false`  | `false` | Determine if production or staging api should be used. The default is `false` to avoid tampering with production api by accident.                                                                                                                                                                                                                          |
 | `CASHAPP_REGION`     | `string` | `false`  | `PDX`   | A character code representing the region closest to where your own services are hosted. Must be [supported regions](https://developers.cash.app/docs/api/technical-documentation/api-fundamentals/requests/regions-and-localization#supported-region--iata-airport-codes). An `InvalidRegionException` exception is thrown if an invalid code is provided. |
+| `CASHAPP_CLIENT_ID`  | `string` | `true`   | `null`  | Here you specify the <client_id> associated with your cash app account.                                                                                                                                                                                                                                                                                    |
+
+
+Example in your `.env`
+```dotenv
+CASHAPP_PRODUCTION=true
+CASHAPP_REGION=ATL #Atlanta, United States
+CASHAPP_CLIENT_ID=CS-CI_ACKIl7VOyOUwAg...
+```
+
 
 ## Usage
 

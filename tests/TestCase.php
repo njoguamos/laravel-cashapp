@@ -27,7 +27,7 @@ class TestCase extends Orchestra
     public function getEnvironmentSetUp($app): void
     {
         config()->set('database.default', 'testing');
-        config()->set('cashapp.client_id', 'ACKIl7VOyOUwAgCzTYF1+B+A9sfq0kIGTy+Z43wENpw=');
+        config()->set('cashapp.client_id', 'CAS-CI_ACKIl7VOyOUwAgCzTYF1+B+A9sfq0kIGTy+Z43wENpw');
 
         /*
         $migration = include __DIR__.'/../database/migrations/create_laravel-cashapp_table.php.stub';
