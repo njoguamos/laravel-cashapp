@@ -1,0 +1,1206 @@
+[
+    {
+        "code": "ABJ",
+        "city": "Abidjan, Ivory Coast"
+    },
+    {
+        "code": "ABQ",
+        "city": "Albuquerque, United States"
+    },
+    {
+        "code": "ACC",
+        "city": "Accra, Ghana"
+    },
+    {
+        "code": "ACE",
+        "city": "Arrecife, Spain"
+    },
+    {
+        "code": "ADB",
+        "city": "Izmir, Turkey"
+    },
+    {
+        "code": "ADD",
+        "city": "Addis Ababa, Ethiopia"
+    },
+    {
+        "code": "ADL",
+        "city": "Adelaide, Australia"
+    },
+    {
+        "code": "AEP",
+        "city": "Buenos Aires, Argentina"
+    },
+    {
+        "code": "AER",
+        "city": "Sochi, Russia"
+    },
+    {
+        "code": "AGP",
+        "city": "Malaga, Spain"
+    },
+    {
+        "code": "AIT",
+        "city": "Aitutaki, Cook Islands"
+    },
+    {
+        "code": "AKL",
+        "city": "Auckland, New Zealand"
+    },
+    {
+        "code": "ALC",
+        "city": "Alicante, Spain"
+    },
+    {
+        "code": "ALG",
+        "city": "Algiers, Algeria"
+    },
+    {
+        "code": "AMD",
+        "city": "Ahmedabad, India"
+    },
+    {
+        "code": "AMS",
+        "city": "Amsterdam, Netherlands"
+    },
+    {
+        "code": "ANC",
+        "city": "Anchorage, United States"
+    },
+    {
+        "code": "APW",
+        "city": "Faleolo, Samoa"
+    },
+    {
+        "code": "ARN",
+        "city": "Stockholm, Sweden"
+    },
+    {
+        "code": "ASU",
+        "city": "Asuncion, Paraguay"
+    },
+    {
+        "code": "ATH",
+        "city": "Athens, Greece"
+    },
+    {
+        "code": "ATL",
+        "city": "Atlanta, United States"
+    },
+    {
+        "code": "AUH",
+        "city": "Abu Dhabi, United Arab Emirates"
+    },
+    {
+        "code": "AUS",
+        "city": "Austin, United States"
+    },
+    {
+        "code": "AYT",
+        "city": "Antalya, Turkey"
+    },
+    {
+        "code": "BCN",
+        "city": "Barcelona, Spain"
+    },
+    {
+        "code": "BDL",
+        "city": "Windsor Locks, United States"
+    },
+    {
+        "code": "BEG",
+        "city": "Belgrade, Serbia"
+    },
+    {
+        "code": "BGO",
+        "city": "Bergen, Norway"
+    },
+    {
+        "code": "BGY",
+        "city": "Bergamo, Italy"
+    },
+    {
+        "code": "BHX",
+        "city": "Birmingham, United Kingdom"
+    },
+    {
+        "code": "BKI",
+        "city": "Kota Kinabalu, Malaysia"
+    },
+    {
+        "code": "BKK",
+        "city": "Bangkok, Thailand"
+    },
+    {
+        "code": "BLQ",
+        "city": "Bologna, Italy"
+    },
+    {
+        "code": "BLR",
+        "city": "Bangalore, India"
+    },
+    {
+        "code": "BNA",
+        "city": "Nashville, United States"
+    },
+    {
+        "code": "BNE",
+        "city": "Brisbane, Australia"
+    },
+    {
+        "code": "BOD",
+        "city": "Bordeaux, France"
+    },
+    {
+        "code": "BOG",
+        "city": "Bogota, Colombia"
+    },
+    {
+        "code": "BOM",
+        "city": "Mumbai, India"
+    },
+    {
+        "code": "BOS",
+        "city": "Boston, United States"
+    },
+    {
+        "code": "BPN",
+        "city": "Balkipapan, Indonesia"
+    },
+    {
+        "code": "BRS",
+        "city": "Bristol, United Kingdom"
+    },
+    {
+        "code": "BRU",
+        "city": "Brussels, Belgium"
+    },
+    {
+        "code": "BSB",
+        "city": "Brasilia, Brazil"
+    },
+    {
+        "code": "BSL",
+        "city": "Mulhouse, France"
+    },
+    {
+        "code": "BTH",
+        "city": "Batam, Indonesia"
+    },
+    {
+        "code": "BUD",
+        "city": "Budapest, Hungary"
+    },
+    {
+        "code": "BUS",
+        "city": "Batumi, Georgia"
+    },
+    {
+        "code": "BWI",
+        "city": "Baltimore, United States"
+    },
+    {
+        "code": "BZE",
+        "city": "Belize City, Belize"
+    },
+    {
+        "code": "CAI",
+        "city": "Cairo, Egypt"
+    },
+    {
+        "code": "CAN",
+        "city": "Guangzhou, China"
+    },
+    {
+        "code": "CBR",
+        "city": "Canberra, Australia"
+    },
+    {
+        "code": "CCU",
+        "city": "Kolkata, India"
+    },
+    {
+        "code": "CDG",
+        "city": "Paris, France"
+    },
+    {
+        "code": "CEB",
+        "city": "Cebu, Phillippines"
+    },
+    {
+        "code": "CGK",
+        "city": "Jakarta, Indonesia"
+    },
+    {
+        "code": "CGN",
+        "city": "Cologne, Germany"
+    },
+    {
+        "code": "CGO",
+        "city": "Zhengzhou, China"
+    },
+    {
+        "code": "CGQ",
+        "city": "Changchun, China"
+    },
+    {
+        "code": "CHC",
+        "city": "Christchurch, New Zealand"
+    },
+    {
+        "code": "CJU",
+        "city": "Cheju, South Korea"
+    },
+    {
+        "code": "CKG",
+        "city": "Chongqing, China"
+    },
+    {
+        "code": "CLE",
+        "city": "Cleveland, United States"
+    },
+    {
+        "code": "CLT",
+        "city": "Charlotte, United States"
+    },
+    {
+        "code": "CMH",
+        "city": "Colombus, United States"
+    },
+    {
+        "code": "CMN",
+        "city": "Casablanca, Morocco"
+    },
+    {
+        "code": "CNF",
+        "city": "Belo Horizonte, Brazil"
+    },
+    {
+        "code": "CNS",
+        "city": "Cairns, Australia"
+    },
+    {
+        "code": "CNX",
+        "city": "Chiang Mai, Thailand"
+    },
+    {
+        "code": "COK",
+        "city": "Kochi, India"
+    },
+    {
+        "code": "COO",
+        "city": "Cotonou, Benin"
+    },
+    {
+        "code": "CPH",
+        "city": "Copenhagen, Denmark"
+    },
+    {
+        "code": "CPT",
+        "city": "Cape Town, South Africa"
+    },
+    {
+        "code": "CRL",
+        "city": "Charleroi, Belgium"
+    },
+    {
+        "code": "CSX",
+        "city": "Changcha, China"
+    },
+    {
+        "code": "CTA",
+        "city": "Catania, Italy"
+    },
+    {
+        "code": "CTS",
+        "city": "Sapporo, Japan"
+    },
+    {
+        "code": "CTU",
+        "city": "Chengdu, China"
+    },
+    {
+        "code": "CUN",
+        "city": "Cancun, Mexico"
+    },
+    {
+        "code": "CVG",
+        "city": "Cincinnati, United States"
+    },
+    {
+        "code": "CWB",
+        "city": "Curitiba, Brazil"
+    },
+    {
+        "code": "DAD",
+        "city": "Danang, Vietnam"
+    },
+    {
+        "code": "DAR",
+        "city": "Dar Es Salaam, Tanzania"
+    },
+    {
+        "code": "DEL",
+        "city": "Delhi, India"
+    },
+    {
+        "code": "DEN",
+        "city": "Denver, United States"
+    },
+    {
+        "code": "DFW",
+        "city": "Dallas, United States"
+    },
+    {
+        "code": "DKR",
+        "city": "Dakar, Senegal"
+    },
+    {
+        "code": "DLA",
+        "city": "Doulala, Cameroon"
+    },
+    {
+        "code": "DLC",
+        "city": "Dalian, China"
+    },
+    {
+        "code": "DOH",
+        "city": "Doha, Qatar"
+    },
+    {
+        "code": "DPS",
+        "city": "Denpasar, Indonesia"
+    },
+    {
+        "code": "DTW",
+        "city": "Detroit, United States"
+    },
+    {
+        "code": "DUB",
+        "city": "Dublin, Ireland"
+    },
+    {
+        "code": "DUS",
+        "city": "Dusseldorf, Germany"
+    },
+    {
+        "code": "DXB",
+        "city": "Dubai, United Arab Emirates"
+    },
+    {
+        "code": "EBB",
+        "city": "Entebbe, Uganda"
+    },
+    {
+        "code": "ECN",
+        "city": "Nicosia, Cyprus"
+    },
+    {
+        "code": "EDI",
+        "city": "Edinburgh, United Kingdom"
+    },
+    {
+        "code": "ESB",
+        "city": "Ankara, Turkey"
+    },
+    {
+        "code": "FAO",
+        "city": "Faro, Portugal"
+    },
+    {
+        "code": "FCO",
+        "city": "Rome, Italy"
+    },
+    {
+        "code": "FIH",
+        "city": "Kinshasa, Democratic Republic of the Congo"
+    },
+    {
+        "code": "FOC",
+        "city": "Fuzhou, China"
+    },
+    {
+        "code": "FRA",
+        "city": "Frankfurt, Germany"
+    },
+    {
+        "code": "FUE",
+        "city": "Fuerteventura, Spain"
+    },
+    {
+        "code": "FUK",
+        "city": "Fukuoka, Japan"
+    },
+    {
+        "code": "GDL",
+        "city": "Guadalajara, Mexico"
+    },
+    {
+        "code": "GIG",
+        "city": "Rio de Janeiro, Brazil"
+    },
+    {
+        "code": "GLA",
+        "city": "Glasgow, United Kingdom"
+    },
+    {
+        "code": "GOA",
+        "city": "Goa, India"
+    },
+    {
+        "code": "GOT",
+        "city": "Gothenborg, Sweden"
+    },
+    {
+        "code": "GRU",
+        "city": "São Paulo, Brazil"
+    },
+    {
+        "code": "GUA",
+        "city": "Guatemala City, Guatemala"
+    },
+    {
+        "code": "GVA",
+        "city": "Geneva, Switzerland"
+    },
+    {
+        "code": "HAK",
+        "city": "Haikou, China"
+    },
+    {
+        "code": "HAM",
+        "city": "Hamburg, Germany"
+    },
+    {
+        "code": "HAN",
+        "city": "Hanoi, Vietnam"
+    },
+    {
+        "code": "HAV",
+        "city": "Havana, Cuba"
+    },
+    {
+        "code": "HEL",
+        "city": "Helsinki, Finland"
+    },
+    {
+        "code": "HER",
+        "city": "Heraklion, Greece"
+    },
+    {
+        "code": "HET",
+        "city": "Hohhot, China"
+    },
+    {
+        "code": "HFE",
+        "city": "Hefei, China"
+    },
+    {
+        "code": "HGH",
+        "city": "Hangzhou, China"
+    },
+    {
+        "code": "HKG",
+        "city": "Hong Kong, China"
+    },
+    {
+        "code": "HKT",
+        "city": "Phuket, Thailand"
+    },
+    {
+        "code": "HND",
+        "city": "Tokyo, Japan"
+    },
+    {
+        "code": "HNL",
+        "city": "Honolulu, United States"
+    },
+    {
+        "code": "HOU",
+        "city": "Houston, United States"
+    },
+    {
+        "code": "HRB",
+        "city": "Harbin, China"
+    },
+    {
+        "code": "HRE",
+        "city": "Harare, Zimbabwe"
+    },
+    {
+        "code": "HYD",
+        "city": "Hyderabad, India"
+    },
+    {
+        "code": "IAD",
+        "city": "Washington D.C., United States"
+    },
+    {
+        "code": "IAH",
+        "city": "Houston, United States"
+    },
+    {
+        "code": "IBZ",
+        "city": "Ibiza, Spain"
+    },
+    {
+        "code": "ICN",
+        "city": "Seoul, Korea"
+    },
+    {
+        "code": "INC",
+        "city": "Yinchuan, China"
+    },
+    {
+        "code": "IND",
+        "city": "Indianapolis, United States"
+    },
+    {
+        "code": "IST",
+        "city": "Istanbul, Turkey"
+    },
+    {
+        "code": "JED",
+        "city": "Jeddah, Saudi Arabia"
+    },
+    {
+        "code": "JFK",
+        "city": "New York, United States"
+    },
+    {
+        "code": "JJN",
+        "city": "Quanzhou, China"
+    },
+    {
+        "code": "JNB",
+        "city": "Johannesburg, South Africa"
+    },
+    {
+        "code": "JOG",
+        "city": "Yogyakarta, Indonesia"
+    },
+    {
+        "code": "KBP",
+        "city": "Kiev, Ukraine"
+    },
+    {
+        "code": "KEF",
+        "city": "Keflavik, Iceland"
+    },
+    {
+        "code": "KHH",
+        "city": "Kaohsiung, Taiwan"
+    },
+    {
+        "code": "KHN",
+        "city": "Nanchang, China"
+    },
+    {
+        "code": "KIX",
+        "city": "Osaka, Japan"
+    },
+    {
+        "code": "KMG",
+        "city": "Kunming, China"
+    },
+    {
+        "code": "KNO",
+        "city": "Medan, Indonesia"
+    },
+    {
+        "code": "KRT",
+        "city": "Khartoum, Sudan"
+    },
+    {
+        "code": "KUL",
+        "city": "Kuala Lumpur, Malaysia"
+    },
+    {
+        "code": "KWE",
+        "city": "Guiyang, China"
+    },
+    {
+        "code": "KWL",
+        "city": "Guilin, China"
+    },
+    {
+        "code": "LAD",
+        "city": "Luanda, Angola"
+    },
+    {
+        "code": "LAS",
+        "city": "Las Vegas, United States"
+    },
+    {
+        "code": "LAX",
+        "city": "Los Angeles, United States"
+    },
+    {
+        "code": "LED",
+        "city": "St. Petersburg, Russia"
+    },
+    {
+        "code": "LHR",
+        "city": "London, United Kingdom"
+    },
+    {
+        "code": "LHW",
+        "city": "Lanzhou, China"
+    },
+    {
+        "code": "LIM",
+        "city": "Lima, Peru"
+    },
+    {
+        "code": "LIN",
+        "city": "Milano, Italy"
+    },
+    {
+        "code": "LIS",
+        "city": "Lisbon, Portugal"
+    },
+    {
+        "code": "LJG",
+        "city": "Lijiang, China"
+    },
+    {
+        "code": "LOS",
+        "city": "Lagos, Nigeria"
+    },
+    {
+        "code": "LPA",
+        "city": "Gran Canaria, Spain"
+    },
+    {
+        "code": "LUX",
+        "city": "Luxembourg, Luxembourg"
+    },
+    {
+        "code": "LYS",
+        "city": "Lyon, France"
+    },
+    {
+        "code": "MAA",
+        "city": "Chennai, India"
+    },
+    {
+        "code": "MAD",
+        "city": "Madrid, Spain"
+    },
+    {
+        "code": "MAN",
+        "city": "Manchester, United Kingdom"
+    },
+    {
+        "code": "MCI",
+        "city": "Kansas City, United States"
+    },
+    {
+        "code": "MCO",
+        "city": "Orlando, United States"
+    },
+    {
+        "code": "MED",
+        "city": "Madinah, Saudi Arabia"
+    },
+    {
+        "code": "MEL",
+        "city": "Melbourne, Australia"
+    },
+    {
+        "code": "MEX",
+        "city": "Mexico City, Mexico"
+    },
+    {
+        "code": "MGA",
+        "city": "Managua, Nicaragua"
+    },
+    {
+        "code": "MHD",
+        "city": "Mashhad, Iran"
+    },
+    {
+        "code": "MIA",
+        "city": "Miami, United States"
+    },
+    {
+        "code": "MLA",
+        "city": "Malta, Malta"
+    },
+    {
+        "code": "MNL",
+        "city": "Manila, Philippines"
+    },
+    {
+        "code": "MRS",
+        "city": "Marseille, France"
+    },
+    {
+        "code": "MRU",
+        "city": "Plaisance, Mauritius"
+    },
+    {
+        "code": "MSP",
+        "city": "Minneapolis, United States"
+    },
+    {
+        "code": "MSQ",
+        "city": "Minsk, Belarus"
+    },
+    {
+        "code": "MSY",
+        "city": "New Orleans, United States"
+    },
+    {
+        "code": "MTY",
+        "city": "Monterrey, Mexico"
+    },
+    {
+        "code": "MUC",
+        "city": "Munich, Germany"
+    },
+    {
+        "code": "MUN",
+        "city": "Maturin, Venezuela"
+    },
+    {
+        "code": "MXP",
+        "city": "Milano, Italy"
+    },
+    {
+        "code": "NAN",
+        "city": "Nandi, Fiji"
+    },
+    {
+        "code": "NAP",
+        "city": "Naples, Italy"
+    },
+    {
+        "code": "NBO",
+        "city": "Nairobi, Kenya"
+    },
+    {
+        "code": "NCE",
+        "city": "Nice, France"
+    },
+    {
+        "code": "NGB",
+        "city": "Ninbo, China"
+    },
+    {
+        "code": "NGO",
+        "city": "Nagoya, Japan"
+    },
+    {
+        "code": "NIM",
+        "city": "Niamey, Niger"
+    },
+    {
+        "code": "NKG",
+        "city": "Nanjing, China"
+    },
+    {
+        "code": "NNG",
+        "city": "Nanning, China"
+    },
+    {
+        "code": "OAK",
+        "city": "Oakland, United States"
+    },
+    {
+        "code": "OKA",
+        "city": "Okinawa, Japan"
+    },
+    {
+        "code": "OOL",
+        "city": "Coolangatta, Australia"
+    },
+    {
+        "code": "OPO",
+        "city": "Porto, Portugal"
+    },
+    {
+        "code": "ORD",
+        "city": "Chicago, United States"
+    },
+    {
+        "code": "OSL",
+        "city": "Oslo, Norway"
+    },
+    {
+        "code": "OTP",
+        "city": "Bucharest, Romania"
+    },
+    {
+        "code": "OUA",
+        "city": "Ouagadougou, Burkina Faso"
+    },
+    {
+        "code": "PDX",
+        "city": "Portland, United States"
+    },
+    {
+        "code": "PEK",
+        "city": "Beijing, China"
+    },
+    {
+        "code": "PEN",
+        "city": "Penang, Malaysia"
+    },
+    {
+        "code": "PER",
+        "city": "Perth, Australia"
+    },
+    {
+        "code": "PHL",
+        "city": "Philadelphia, United States"
+    },
+    {
+        "code": "PHX",
+        "city": "Phoenix, United States"
+    },
+    {
+        "code": "PIT",
+        "city": "Pittsburgh, United States"
+    },
+    {
+        "code": "PNQ",
+        "city": "Pune, India"
+    },
+    {
+        "code": "POA",
+        "city": "Porto Alegre, Brazil"
+    },
+    {
+        "code": "POM",
+        "city": "Port Moresby, Papua New Guinea"
+    },
+    {
+        "code": "PPG",
+        "city": "Pago Pago, American Samoa"
+    },
+    {
+        "code": "PRG",
+        "city": "Prague, Czech Republic"
+    },
+    {
+        "code": "PTY",
+        "city": "Panama City, Panama"
+    },
+    {
+        "code": "PUS",
+        "city": "Busan, South Korea"
+    },
+    {
+        "code": "PVG",
+        "city": "Shanghai, China"
+    },
+    {
+        "code": "RDU",
+        "city": "Raleigh, United States"
+    },
+    {
+        "code": "REC",
+        "city": "Recife, Brazil"
+    },
+    {
+        "code": "RGN",
+        "city": "Yangon, Burma"
+    },
+    {
+        "code": "RIX",
+        "city": "Riga, Latvia"
+    },
+    {
+        "code": "RUH",
+        "city": "Riyadh, Saudi Arabia"
+    },
+    {
+        "code": "RUR",
+        "city": "Rurutu, French Polynesia"
+    },
+    {
+        "code": "SAL",
+        "city": "San Salvador, El Salvador"
+    },
+    {
+        "code": "SAN",
+        "city": "San Diego, United States"
+    },
+    {
+        "code": "SAP",
+        "city": "San Pedro Sula, Honduras"
+    },
+    {
+        "code": "SAT",
+        "city": "San Antonio, United States"
+    },
+    {
+        "code": "SCL",
+        "city": "Santiago, Chile"
+    },
+    {
+        "code": "SEA",
+        "city": "Seattle, United States"
+    },
+    {
+        "code": "SFO",
+        "city": "San Francisco, United States"
+    },
+    {
+        "code": "SGN",
+        "city": "Ho Chi Minh City, Vietnam"
+    },
+    {
+        "code": "SHE",
+        "city": "Shenyang, China"
+    },
+    {
+        "code": "SHU",
+        "city": "Sharjah, United Arab Emirates"
+    },
+    {
+        "code": "SID",
+        "city": "Amilcar Cabral, Cape Verde"
+    },
+    {
+        "code": "SIN",
+        "city": "Singapore"
+    },
+    {
+        "code": "SJC",
+        "city": "San Jose, United States"
+    },
+    {
+        "code": "SJJ",
+        "city": "Saajevo, Bosnia & Herzegovina"
+    },
+    {
+        "code": "SJO",
+        "city": "San Jose, Costa Rica"
+    },
+    {
+        "code": "SJW",
+        "city": "Shijiazhuang, China"
+    },
+    {
+        "code": "SKG",
+        "city": "Thessaloniki, Greece"
+    },
+    {
+        "code": "SLC",
+        "city": "Salt Lake City, United States"
+    },
+    {
+        "code": "SMF",
+        "city": "Sacramento, United States"
+    },
+    {
+        "code": "SNA",
+        "city": "Santa Ana, United States"
+    },
+    {
+        "code": "SOF",
+        "city": "Sofia, Bulgaria"
+    },
+    {
+        "code": "SSA",
+        "city": "Salvador, Brazil"
+    },
+    {
+        "code": "STL",
+        "city": "St. Louis, United States"
+    },
+    {
+        "code": "STR",
+        "city": "Stuttgart, Germany"
+    },
+    {
+        "code": "SUB",
+        "city": "Surabaya, Indonesia"
+    },
+    {
+        "code": "SVO",
+        "city": "Moscow, Russia"
+    },
+    {
+        "code": "SYD",
+        "city": "Sydney, Australia"
+    },
+    {
+        "code": "SYX",
+        "city": "Sanya, China"
+    },
+    {
+        "code": "SZX",
+        "city": "Shenzhen, China"
+    },
+    {
+        "code": "TAO",
+        "city": "Qingdao, China"
+    },
+    {
+        "code": "TBU",
+        "city": "Tongatapu, Tonga"
+    },
+    {
+        "code": "TFS",
+        "city": "Tenerife, Spain"
+    },
+    {
+        "code": "THR",
+        "city": "Tehran, Iran"
+    },
+    {
+        "code": "TIJ",
+        "city": "Tijuana, Mexico"
+    },
+    {
+        "code": "TLS",
+        "city": "Toulouse, France"
+    },
+    {
+        "code": "TLV",
+        "city": "Tel-Aviv, Israel"
+    },
+    {
+        "code": "TNA",
+        "city": "Jinan, China"
+    },
+    {
+        "code": "TNR",
+        "city": "Antananarivo, Madagascar"
+    },
+    {
+        "code": "TPA",
+        "city": "Tampa, United States"
+    },
+    {
+        "code": "TPE",
+        "city": "Taipei, Taiwan"
+    },
+    {
+        "code": "TRW",
+        "city": "Tarawa, Kiribati"
+    },
+    {
+        "code": "TSN",
+        "city": "Tianjin, China"
+    },
+    {
+        "code": "TUN",
+        "city": "Tunis, Tunisia"
+    },
+    {
+        "code": "TXL",
+        "city": "Berlin, Germany"
+    },
+    {
+        "code": "TYN",
+        "city": "Taiyuan, China"
+    },
+    {
+        "code": "UPG",
+        "city": "Ujung Pandang, Indonesia"
+    },
+    {
+        "code": "URC",
+        "city": "Urumqi, China"
+    },
+    {
+        "code": "VCE",
+        "city": "Venice, Italy"
+    },
+    {
+        "code": "VCP",
+        "city": "Campinas, Brazil"
+    },
+    {
+        "code": "VIE",
+        "city": "Vienna, Austria"
+    },
+    {
+        "code": "VLC",
+        "city": "Valencia, Spain"
+    },
+    {
+        "code": "WAW",
+        "city": "Warsaw, Poland"
+    },
+    {
+        "code": "WLG",
+        "city": "Wellington, New Zealand"
+    },
+    {
+        "code": "WLS",
+        "city": "Wallis, Wallis & Fortuna"
+    },
+    {
+        "code": "WNZ",
+        "city": "Wenzhou, China"
+    },
+    {
+        "code": "WUH",
+        "city": "Wuhan, China"
+    },
+    {
+        "code": "WUX",
+        "city": "Wuxi, China"
+    },
+    {
+        "code": "XIY",
+        "city": "Xian, China"
+    },
+    {
+        "code": "XMN",
+        "city": "Xiamen, China"
+    },
+    {
+        "code": "YEG",
+        "city": "Edmonton, Canada"
+    },
+    {
+        "code": "YHZ",
+        "city": "Halifax, Canada"
+    },
+    {
+        "code": "YNT",
+        "city": "Yantai, China"
+    },
+    {
+        "code": "YOW",
+        "city": "Ottawa, Canada"
+    },
+    {
+        "code": "YUL",
+        "city": "Montreal, Canada"
+    },
+    {
+        "code": "YVR",
+        "city": "Vancouver, Canada"
+    },
+    {
+        "code": "YWG",
+        "city": "Winnipeg, Canada"
+    },
+    {
+        "code": "YYC",
+        "city": "Calgary, Canada"
+    },
+    {
+        "code": "YYZ",
+        "city": "Toronto, Canada"
+    },
+    {
+        "code": "ZAG",
+        "city": "Zagreb, Croatia"
+    },
+    {
+        "code": "ZRH",
+        "city": "Zurich, Switzerland"
+    },
+    {
+        "code": "ZUH",
+        "city": "Zhuhai, China"
+    }
+]
