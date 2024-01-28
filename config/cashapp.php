@@ -17,6 +17,23 @@ return [
     'production' => env(key: 'CASHAPP_PRODUCTION', default: false),
 
     /*
+    |--------------------------------------------------------------------------
+    | Cash App Client ID
+    |--------------------------------------------------------------------------
+    |
+    | Here you specify the <client_id> associated with your cash app account.
+    | The <client id> is use to construct the authorisation header. The
+    | client ID can be shared with the customers' browsers or POS.
+    |
+    | Starts with `CAS-CI_` for sandbox and `CA-CI_` for production.
+    |
+    | @see https://developers.cash.app/docs/api/technical-documentation%2Fapi-fundamentals%2Frequests%2Fmaking-requests#authorization
+    |
+   */
+
+    'client_id' => env(key: 'CASHAPP_CLIENT_ID'),
+
+    /*
      |--------------------------------------------------------------------------
      | Cash App Base Urls
      |--------------------------------------------------------------------------
@@ -29,8 +46,8 @@ return [
      */
 
     'urls' => [
-        'sandbox'    => env(key: 'CASHAPP_SANDBOX_URL', default: 'https://sandbox.api.cash.app'),
-        'production' => env(key: 'CASHAPP_PRODUCTION_URL', default: 'https://api.cash.app'),
+        'sandbox'    => 'https://sandbox.api.cash.app',
+        'production' => 'https://api.cash.app',
     ],
 
     /*
@@ -46,5 +63,24 @@ return [
      |
      */
 
-    'region' => env(key: 'CASHAPP_REGION', default: 'PDX')
+    'region' => env(key: 'CASHAPP_REGION', default: 'PDX'),
+
+    /*
+     |--------------------------------------------------------------------------
+     | Cash App API Version
+     |--------------------------------------------------------------------------
+     |
+     | Here we specify the Cash APP API version. This package is fixed to
+     | to a specific version to avoid accidental breaking changes.
+     | A new API version will results to a new major release.
+     |
+     | @see https://developers.cash.app/docs/api/technical-documentation/api-fundamentals/requests/api-versioning
+     |
+     */
+
+    'versions' => [
+        'customer'   => 'v1', // Support Window (subject to change): January 1st, 2022 - March 1st, 2027
+        'network'    => 'v1', // Support Window (subject to change): January 1st, 2022 - March 1st, 2027
+        'management' => 'v1' //Support Window (subject to change): January 1st, 2022 - March 1st, 2027
+    ]
 ];
