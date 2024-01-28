@@ -2,11 +2,10 @@
 
 - [ ] Add description
 
-## Prerequisites 
-
-- [ ] Add description
 
 ## Installation
+
+### Installation Method
 
 This package is not public. You can install the package by updating your project composer as follows. 
 
@@ -24,6 +23,7 @@ This package is not public. You can install the package by updating your project
 }
 ```
 
+### Migrations
 You can publish and run the migrations with:
 
 ```bash
@@ -31,24 +31,20 @@ php artisan vendor:publish --tag="laravel-cashapp-migrations"
 php artisan migrate
 ```
 
+### Config 
+
 You can publish the config file with:
 
 ```bash
 php artisan vendor:publish --tag="laravel-cashapp-config"
 ```
 
-This is the contents of the published config file:
+You need to understand the following keys in the config
 
-```php
-return [
-];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="laravel-cashapp-views"
-```
+| Key                  | type     | required | default | description                                                                                                                                                                                                                                                                                                                                                |
+|----------------------|----------|----------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `CASHAPP_PRODUCTION` | `boolen` | `false`  | `false` | Determine if production or staging api should be used. The default is `false` to avoid tampering with production api by accident.                                                                                                                                                                                                                          |
+| `CASHAPP_REGION`     | `string` | `false`  | `PDX`   | A character code representing the region closest to where your own services are hosted. Must be [supported regions](https://developers.cash.app/docs/api/technical-documentation/api-fundamentals/requests/regions-and-localization#supported-region--iata-airport-codes). An `InvalidRegionException` exception is thrown if an invalid code is provided. |
 
 ## Usage
 
