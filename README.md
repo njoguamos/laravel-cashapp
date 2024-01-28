@@ -1,6 +1,7 @@
 # A laravel package scaffolding Cash App API.
 
-- [ ] Add description
+## Why Use this Package?
+1. The requests are automatically signed
 
 
 ## Installation

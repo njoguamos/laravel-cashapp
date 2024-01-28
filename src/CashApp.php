@@ -2,7 +2,7 @@
 
 namespace NjoguAmos\CashApp;
 
-use NjoguAmos\CashApp\Connectors\CashAppConnector;
+use NjoguAmos\CashApp\Connectors\NetworkConnector;
 use NjoguAmos\CashApp\Requests\Network\Brands\ListBrandsRequest;
 use Saloon\Exceptions\Request\FatalRequestException;
 use Saloon\Exceptions\Request\RequestException;
@@ -15,7 +15,7 @@ class CashApp
      */
     public static function listBrands(string $cursor = null, int $limit = 50, $reference_id = null): string
     {
-        $connector = new CashAppConnector();
+        $connector = new NetworkConnector();
 
         $request = new ListBrandsRequest();
 
