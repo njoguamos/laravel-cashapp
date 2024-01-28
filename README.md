@@ -60,6 +60,19 @@ CASHAPP_CLIENT_ID=CS-CI_ACKIl7VOyOUwAg...
 
 ## Usage
 
+### Responses
+
+All response return by this package are are instance of `Saloon\Http\Response` which has the following keys methods.
+
+| Method                | Description                                                            |
+|-----------------------|------------------------------------------------------------------------|
+| `$response->ok()`     | Determine if the response code was "OK".                               |
+| `$response->body()`   | Get the body of the response as string.                                |
+| `$response->status()` | Get the status code of the response.                                   |
+| `$response->json()`   | Get the JSON decoded body of the response as an array or scalar value. |
+| `$response->xml()`    | Convert the XML response into a SimpleXMLElement.                      |
+
+
 ### 1 Network API
 
 #### 1.1 Brands
@@ -73,13 +86,13 @@ Get a list of brands matching the given query parameters. [API Reference](https:
 use NjoguAmos\CashApp\CashApp;
 
 # Defaults
-$brands = CashApp::listBrands();
+$response = CashApp::getBrands();
 
 # With params
-$brands = CashApp::listBrands(limit: 20);
+$response = CashApp::getBrands(limit: 20);
 ```
 
-A successful response will be formatted as follows.
+A successful response body `$response->body()` will be formatted as follows.
 
 ```json
 {
