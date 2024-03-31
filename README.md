@@ -9,20 +9,10 @@
 
 ### Installation Method
 
-This package is not public. You can install the package by updating your project composer as follows. 
+You can install this package via composer. 
 
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/njoguamos/laravel-cashapp.git"
-        }
-    ],
-    "require": {
-        "njoguamos/laravel-cashapp": "dev-master"
-    }
-}
+```bash
+composer require njoguamos/laravel-cashapp
 ```
 
 ### Migrations
