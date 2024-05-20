@@ -1,4 +1,6 @@
-# A laravel package scaffolding Cash App API.
+> **warning** This package is still in the early stages of development. DON"T USE IT!
+ 
+# A Laravel package scaffolding Cash App API.
 
 ## Why Use this Package?
 
